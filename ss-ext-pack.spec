@@ -26,7 +26,7 @@ This extension pack install common utilities and create aliases useful for dayly
 
 %install
 install -d $RPM_BUILD_ROOT/etc/profile.d
-install -m 0755 ss-ext-pack-%{version}/ss-ext-pack.sh $RPM_BUILD_ROOT/etc/profile.d/ss-ext-pack.sh
+install -m 0644 ss-ext-pack-%{version}/ss-ext-pack.sh $RPM_BUILD_ROOT/etc/profile.d/ss-ext-pack.sh
 #%make_install
 
 %post
