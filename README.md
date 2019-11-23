@@ -53,4 +53,4 @@ $ sudo dnf install ss-ext-pack -y
 ### Warning
 Aliases and the bash function are defined in `/etc/profile.d/ss-ext-pack.sh`; so if may attention to not override i.e. in `.bashrc`.
 
-Aliases and the bash function will be available only after reboot or if you run `source /etc/profile.d/ss-ext-pack.sh`.
+Aliases and the bash function will be available only after reboot or you run `source /etc/profile.d/ss-ext-pack.sh`.
