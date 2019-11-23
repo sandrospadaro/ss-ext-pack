@@ -1,6 +1,6 @@
 # ss-ext-pack
 
-This extension pack install common utilities and create aliases useful for dayly administrative tasks.
+This extension pack install common utilities and create aliases useful for daily administrative tasks.
 
 ## Installed packages
 
@@ -25,7 +25,7 @@ Put files (and directories) in trash using the trash-put command in a way that i
 [website](https://sandrospadaro.github.io/rmtrash/)
 
 ### mannaggia
-Automatic saint invocation used by expert Linux System Administrator.
+Automatic saint invocation used by expert Linux System Administrators.
 
 [website](https://sandrospadaro.github.io/mannaggia/)
 
