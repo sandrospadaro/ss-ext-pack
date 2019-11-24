@@ -34,6 +34,8 @@ Automatic saint invocation used by expert Linux System Administrators.
 * `where` is for `find / -iname`
 * `calc` is for `bc`
 * `la` is for `ls -lah`
+* `ps` is for `ps -aux`
+* `netstat` is for `netstat -pnt`
 * `mkcdir` is for `mkdir` and `cd` into created directory
 
 For the complete list see the source code.
