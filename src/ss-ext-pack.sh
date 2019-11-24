@@ -11,6 +11,8 @@ alias vi='vim'
 alias more='less'
 alias calc='bc'
 alias where='find / -iname'
+alias ps='ps -aux'
+alias netstat='netstat -pnt'
 
 mkcdir ()
 {
