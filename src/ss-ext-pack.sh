@@ -21,22 +21,23 @@ mkcdir()
       cd -P -- "$1"
 }
 
-cd(){
-        if [ $# -eq 0 ]
-        then
-                pushd ~ > /dev/null
-        else
-                if [ $# -eq 1 ]
-                then
-                        if [ $1 = '-' ]
-                        then
-                                popd > /dev/null
-                        else
-                                pushd $1 > /dev/null
-                        fi
-                else
-                        >&2 echo 'bash: cd: too many arguments'
-                        return 1
-                fi
-        fi
-}
+# cd(){
+#        if [ $# -eq 0 ]
+#        then
+#                pushd ~ > /dev/null
+#        else
+#                if [ $# -eq 1 ]
+#                then
+#                        if [ $1 = '-' ]
+#                        then
+#                                popd > /dev/null
+#                        else
+#                                pushd $1 > /dev/null
+#                        fi
+#                else
+#                        cmd="/usr/bin/cd $@"
+#                        echo $cmd
+#                        eval $cmd
+#                fi
+#        fi
+#}
